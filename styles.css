@@ -279,4 +279,5 @@ button:hover {
 .output {
   width: 800px;
   margin: 20px auto;
+  max-width: 95%;
 }
