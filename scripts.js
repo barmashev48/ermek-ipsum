@@ -59,18 +59,46 @@ const lovePhrases = [
   "airplane food",
   "havingg my expectations exceeded",
   "black cats",
-  "girls with bob cut",
+  "girls with bob cuts",
   "swimming in the lake",
   "making travel plans",
   "travelling to random obscure places",
   "getting roasted",
   "getting tattoed",
+  "strawberries with kefir",
+  "kazakh weddings in moderate amounts",
+  "watching opera while drunk",
+  "a hoagie",
+  "empty art galleries",
+  "brushing teeth with a new toothbrush",
+  "giving presents",
+  "Daft Punk - Something About Us",
+  "wasabi flavoured pistachios",
+  "hugging trees when drunk",
+  "understanding a foreign language",
+  "mentol cigarettes",
+  "smell of a fresh baked bread",
+  "smell of old books",
+  "smell of new books",
+  "having exact change",
+  "Eric Andre",
+  "fishing, I guess",
+  "doing somethink kind without anyone knowing",
+  "getting the corner seat on subway",
+  "reading a book in one sitting",
+  "partying with indians",
+  "overcomplicated board games",
+  "reading Harry Potter when I was a kid",
+  "when people unintenionally say something funny",
+  "basil",
+  "buffalo chicken strips dipped into queso",
 ];
 
 let outputText = ["Ermek ipsum"];
 
 const submitHandler = (e) => {
   e.preventDefault();
+  output.innerHTML = "";
   numOfParagraphs = parseInt(e.target.elements[0].value);
   evaluateArr();
 };
